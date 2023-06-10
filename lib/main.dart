@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:io';
 import 'package:desktop_drop/desktop_drop.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +7,7 @@ var supprtedExt = [".mp4", ".mkv", ".avi"];
 List<String> files = <String>[];
 String message = "Please drag video files to this app";
 
-Future<void> main() async {
+main() {
   runApp(const MyApp());
 }
 
